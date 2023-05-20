@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>css discussion</title>
+<body>
+    <div id="wrapper">
+       <form action="#" method="get">
+          <div id="form_element">
+            <h3>Kindly fill the sign up</h3>
+            <div id="name">
+                <div class="fname">
+                    <div class="label">
+                        <label for="first_name">first_name</label>
+                        <span class="name_info" id="name_info"></span>
+                    </div>
+                    <input type="text" name="username" id="fname" placeholder="first name">
+                </div>
+                <div class="lname">
+                    <div class="label">
+                        <label for="last_name" >last_name</label>
+                    </div>
+                    <input type="text" name="last_name" id="lname" placeholder="last name">
+                </div>
+                
+            </div>
+            <div id="password">
+                <div class="label"><label for="pwd">pwd</label></div>
+                <input type="password" name="password" id="pwd">
+                <div class="label"><label for="cpwd">confirm</label></div>
+                <input type="password" name="password" id="Cpwd">
+            </div>
+            <div class="controls">
+                <input type="submit" value="Register" onclick="userProfile.name()">
+                <input type="reset" value="Reset">
+            </div>
+          </div>   
+       </form>
+    </div>
+    <script src="/axios.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

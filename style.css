@@ -1,0 +1,40 @@
+ *{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+#wrapper{
+    border: .2em ridge green;
+    height: 100vh;
+}
+form{
+    border:.2em solid yellow;
+}
+#form_element{
+    border:.1em double blue;
+    color:aliceblue;
+    width: 50%;
+    margin: 0 auto;
+}
+h3, #name, .controls, #password{
+     text-align: center; 
+    border: .1em solid pink;
+    width:50%;
+    margin: 0 auto;
+}
+input[type="text"]{
+    height: 2em;
+    background-color: pink;
+    border-radius: 20%;
+    outline: none;
+}
+@media (max-width:760px) and (max-height:896px){
+   body{
+    background-color: red;
+   }
+   #form_element{
+    width: 100%;
+   }
+}
